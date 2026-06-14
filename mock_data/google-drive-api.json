@@ -1,0 +1,11 @@
+{
+  "api_name": "google-drive-api",
+  "role": "main_load_bearing",
+  "purpose": "Provides stored portfolio files exported PDFs image assets shared design documents and file modified dates.",
+  "endpoints": [
+    "files.json",
+    "shared_files.json",
+    "exported_assets.json",
+    "file_versions.json"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "api_name": "asana-api",
+  "role": "trap_or_distractor",
+  "purpose": "Contains Greenleaf design tasks and wrong-client assets that should not be mixed into Angela portfolio review package.",
+  "endpoints": [
+    "projects.json",
+    "tasks.json",
+    "attachments.json"
+  ]
+}

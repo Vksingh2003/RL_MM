@@ -1,0 +1,263 @@
+[
+  {
+    "number": "R1",
+    "criterion": "The response returns a CSV file for the Angela Brooks portfolio review task.",
+    "is_positive": true,
+    "type": "instruction following",
+    "evaluation_target": "final_answer",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R2",
+    "criterion": "The response includes one row for each design piece in the review set.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R3",
+    "criterion": "The response includes the columns item_id design_piece project_category approval_source design_file final_status.",
+    "is_positive": true,
+    "type": "instruction following",
+    "evaluation_target": "final_answer",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R4",
+    "criterion": "The response uses only Ready Revise Exclude as final_status values.",
+    "is_positive": true,
+    "type": "instruction following",
+    "evaluation_target": "final_answer",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R5",
+    "criterion": "The response uses the latest approval record as the authority for status decisions.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "trajectory",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R6",
+    "criterion": "The response checks actual design files before assigning final_status values.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "trajectory",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R7",
+    "criterion": "The response keeps each design piece mapped to its original project category.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R8",
+    "criterion": "The response keeps Freelance Client items separate from School Work items.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "important",
+    "score": 3
+  },
+  {
+    "number": "R9",
+    "criterion": "The response keeps Lantern Tides items separate from client work.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "important",
+    "score": 3
+  },
+  {
+    "number": "R10",
+    "criterion": "The response includes DES-001 Greenleaf Donation Page Redesign Freelance Client Ready.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R11",
+    "criterion": "The response includes DES-002 Harborview Booking Flow Redesign Freelance Client Ready.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R12",
+    "criterion": "The response includes DES-003 Briarwood Parent Onboarding Flow Freelance Client Revise.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R13",
+    "criterion": "The response includes DES-004 CID Interaction Design Capstone Board School Work Ready.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R14",
+    "criterion": "The response includes DES-005 Portfolio Homepage Case Study Tile Portfolio Work Ready.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R15",
+    "criterion": "The response includes DES-006 Lantern Tides Pier Scene Lantern Tides Exclude.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R16",
+    "criterion": "The response includes DES-007 Lantern Tides Dialogue UI Mockup Lantern Tides Ready.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R17",
+    "criterion": "The response includes DES-008 Briarwood Tutor Match Screen Freelance Client Ready.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R18",
+    "criterion": "The response excludes old approval records when they conflict with the latest approval record.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "trajectory",
+    "importance": "important",
+    "score": 3
+  },
+  {
+    "number": "R19",
+    "criterion": "The response excludes archived portfolio guidelines when they conflict with current portfolio rules.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "trajectory",
+    "importance": "important",
+    "score": 3
+  },
+  {
+    "number": "R20",
+    "criterion": "The response excludes wrong-client design files from the final CSV.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R21",
+    "criterion": "The response avoids duplicate output rows from duplicate design indexes.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "important",
+    "score": 3
+  },
+  {
+    "number": "R22",
+    "criterion": "The response treats unapproved Lantern Tides concepts as not Ready.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "final_answer",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R23",
+    "criterion": "The response uses the Briarwood design file revision note to mark DES-003 as Revise.",
+    "is_positive": true,
+    "type": "visual understanding",
+    "evaluation_target": "trajectory",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R24",
+    "criterion": "The response uses the Lantern Tides clearance board to mark DES-006 as Exclude.",
+    "is_positive": true,
+    "type": "visual understanding",
+    "evaluation_target": "trajectory",
+    "importance": "critically_important",
+    "score": 5
+  },
+  {
+    "number": "R25",
+    "criterion": "The response ignores Makerspace notes as unrelated noise.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "trajectory",
+    "importance": "important",
+    "score": 1
+  },
+  {
+    "number": "R26",
+    "criterion": "The response ignores boba notes DND notes trip moodboards class schedules and invoice logs as unrelated noise.",
+    "is_positive": true,
+    "type": "task completion",
+    "evaluation_target": "trajectory",
+    "importance": "important",
+    "score": 1
+  },
+  {
+    "number": "R27",
+    "criterion": "The response uses stale approval records as the final authority.",
+    "is_positive": false,
+    "type": "factuality and hallucination",
+    "evaluation_target": "final_answer",
+    "importance": "critically_important",
+    "score": -5
+  },
+  {
+    "number": "R28",
+    "criterion": "The response creates new design pieces instead of auditing the existing portfolio review set.",
+    "is_positive": false,
+    "type": "agent behavior",
+    "evaluation_target": "final_answer",
+    "importance": "critically_important",
+    "score": -5
+  },
+  {
+    "number": "R29",
+    "criterion": "The response includes wrong-client or internal-only Lantern Tides assets in the final share set.",
+    "is_positive": false,
+    "type": "safety & boundaries",
+    "evaluation_target": "final_answer",
+    "importance": "critically_important",
+    "score": -5
+  }
+]

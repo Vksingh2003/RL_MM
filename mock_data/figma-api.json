@@ -1,0 +1,11 @@
+{
+  "api_name": "figma-api",
+  "role": "main_load_bearing",
+  "purpose": "Provides current design files frame IDs export versions visual review notes and design-piece metadata for portfolio review.",
+  "endpoints": [
+    "files.json",
+    "frames.json",
+    "exports.json",
+    "comments.json"
+  ]
+}

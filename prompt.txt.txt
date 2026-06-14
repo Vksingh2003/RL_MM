@@ -1,0 +1,3 @@
+I need a portfolio review CSV with one row per design piece and a final status for each row.
+Use the latest approval record and the actual design files to decide each status while keeping every piece mapped to its original project category.
+Return the final CSV with statuses Ready, Revise, or Exclude.

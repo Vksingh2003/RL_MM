@@ -1,0 +1,5 @@
+Asset_ID,Client_Name,Brand_Name,Platform,Resolution_or_Bleed,Color_Profile,Portfolio_Approval_Status,Final_Deployment_Status,Verified_By
+CAMP_HERO_WEB_v1.webp,Legacy Retail Inc,BrandCo Old,Web Banner,1920x1080,sRGB v2,Pending Review,In-Review,Old Auditor
+CAMP_FEED_INSTA_v2.jpg,Apex Media Group,Apex Legacy,Instagram Feed,1080x1080,sRGB,Rejected,Draft,Intern A
+OLD_PROJECT_99.png,Archived Client,Deprecated Brand,Print Advert,A4 Size,Unknown,Restricted,Cancelled,System Archive
+LT2026_HERO_MAIN.jpg,Staging Pipeline,Lantern Tides Alpha,Teaser Splash,2K Resolution,Uncalibrated,Approved,Staging,Unknown User

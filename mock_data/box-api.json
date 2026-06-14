@@ -1,0 +1,10 @@
+{
+  "api_name": "box-api",
+  "role": "trap_or_distractor",
+  "purpose": "Contains Briarwood compliance or onboarding research documents that are plausible but not final portfolio review sources.",
+  "endpoints": [
+    "folders.json",
+    "documents.json",
+    "permissions.json"
+  ]
+}

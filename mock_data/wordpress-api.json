@@ -1,0 +1,10 @@
+{
+  "api_name": "wordpress-api",
+  "role": "trap_or_distractor",
+  "purpose": "Contains older portfolio or client site publishing records that are not authoritative for the current review package.",
+  "endpoints": [
+    "pages.json",
+    "media.json",
+    "revisions.json"
+  ]
+}

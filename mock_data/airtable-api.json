@@ -1,0 +1,11 @@
+{
+  "api_name": "airtable-api",
+  "role": "main_load_bearing",
+  "purpose": "Provides structured portfolio item tracker records approval mapping and final review status table fields.",
+  "endpoints": [
+    "portfolio_items.json",
+    "approval_mapping.json",
+    "review_status.json",
+    "category_lookup.json"
+  ]
+}

@@ -1,0 +1,6 @@
+Asset_ID,Contrast_Ratio_Large_Text,Contrast_Ratio_Body_Text,Keyboard_Nav_Flow,Alt_Text_Status,Readability_Score_Flesch,WCAG_Compliance_Level,Accessibility_Notes
+CAMP_HERO_WEB_v1.webp,4.8:1 (Pass),5.2:1 (Pass),Logical Tab Order / Focus Ring Active,"Configured: ""Hero banner showcasing spring retail collections""",64.5 (Standard),AA Compliant,Contrast boundaries meet baseline web requirements cleanly.
+CAMP_FEED_INSTA_v2.jpg,7.1:1 (Pass),N/A (Graphic Only),N/A (Platform Native),"Configured: ""Close-up promotional snapshot of neon branding identity""",N/A,AAA Text Contrast Only,High contrast geometric typography overlays pass structural legibility standards.
+CAMP_CAROUSEL_FB_v3.jpg,3.1:1 (Fail),N/A (Graphic Only),N/A (Platform Native),Missing Alt Text,N/A,Non-Compliant,Low contrast yellow text on white background panel requires deep dark overlay adjustments.
+CAMP_FLYER_PRINT_v1.pdf,6.2:1 (Pass),4.1:1 (Fail),Unstructured Reading Order Tagging,Partial: Decorative assets lack null tags,42.1 (Difficult),Partial A Compliant Only,PDF structural tags require remap to establish readable screen reader hierarchy.
+CAMP_BOX_PACK_v4.pdf,8.5:1 (Pass),5.8:1 (Pass),N/A (Physical Print),N/A (Tactile Layout),72.3 (Easy),AA Print Equivalency,Ingredients legal block matches strict contrast and point-size thresholds.

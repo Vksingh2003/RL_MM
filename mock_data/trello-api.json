@@ -1,0 +1,10 @@
+{
+  "api_name": "trello-api",
+  "role": "trap_or_distractor",
+  "purpose": "Contains Lantern Tides milestone cards that may be stale and should not override latest approval records.",
+  "endpoints": [
+    "boards.json",
+    "cards.json",
+    "checklists.json"
+  ]
+}

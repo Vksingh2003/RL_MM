@@ -1,0 +1,5 @@
+Asset_ID,Client_Name,Brand_Name,Platform,Resolution_or_Bleed,Color_Profile,Portfolio_Approval_Status,Final_Deployment_Status,Verified_By
+CAMP_HERO_WEB_v9.webp,Aether Cosmetics Ltd,Aether Glow,Website Banner,3840x2160,sRGB,Approved,Published,Reviewer Beta
+CAMP_FEED_INSTA_v9.jpg,Aether Cosmetics Ltd,Aether Glow,Instagram Feed,1080x1080,sRGB,Approved,Published,Reviewer Beta
+LT2026_HERO_ALT_MARK.jpg,Lucent Tech Corp,Light Tracking 2026,Software UI Splash,1920x1080,Display P3,Restricted (Internal Only),In-Development,SecOps Audit
+CAMP_CAROUSEL_FB_v9.jpg,Zodiac Fitness Co,Zodiac Core,Facebook Ad Carousel,1200x1200,sRGB,Approved,Scheduled,Marketing Admin

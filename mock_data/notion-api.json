@@ -1,0 +1,11 @@
+{
+  "api_name": "notion-api",
+  "role": "main_load_bearing",
+  "purpose": "Provides portfolio planning records project categories review groups and Angela item tracking notes.",
+  "endpoints": [
+    "portfolio_database.json",
+    "project_categories.json",
+    "review_groups.json",
+    "status_notes.json"
+  ]
+}

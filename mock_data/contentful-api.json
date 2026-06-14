@@ -1,0 +1,10 @@
+{
+  "api_name": "contentful-api",
+  "role": "trap_or_distractor",
+  "purpose": "Contains Greenleaf microsite content that may look portfolio-related but should not determine Angela final portfolio status.",
+  "endpoints": [
+    "entries.json",
+    "assets.json",
+    "content_types.json"
+  ]
+}

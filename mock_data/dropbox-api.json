@@ -1,0 +1,10 @@
+{
+  "api_name": "dropbox-api",
+  "role": "trap_or_distractor",
+  "purpose": "Contains old or alternate client asset drops that may look relevant but should not control the final review decision.",
+  "endpoints": [
+    "folders.json",
+    "asset_drops.json",
+    "shared_links.json"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "api_name": "slack-api",
+  "role": "main_load_bearing",
+  "purpose": "Provides client and collaborator review messages that confirm the latest approval or revision decisions.",
+  "endpoints": [
+    "channels.json",
+    "messages.json",
+    "threads.json",
+    "approvals.json"
+  ]
+}

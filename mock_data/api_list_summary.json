@@ -1,0 +1,20 @@
+{
+  "folder_name": "mock_data_api",
+  "total_api_files": 12,
+  "main_load_bearing_apis": [
+    "figma-api",
+    "notion-api",
+    "google-drive-api",
+    "airtable-api",
+    "github-api",
+    "slack-api"
+  ],
+  "trap_or_distractor_apis": [
+    "dropbox-api",
+    "box-api",
+    "trello-api",
+    "asana-api",
+    "wordpress-api",
+    "contentful-api"
+  ]
+}

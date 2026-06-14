@@ -1,0 +1,5 @@
+Invoice_Number,Client_Name,Project_Ref,Billing_Period,Amount_USD,Payment_Status,Line_Items
+INV-2026-001,Global Retail Corp,BrandCo India Launch,May 1 - May 15,2450.00,Paid,Website Banner Design (v1) + Layout Iterations
+INV-2026-002,Apex Social Media,Apex Media Strategy,May 1 - May 15,1800.00,Paid,Instagram Grid Collateral & Story Framework Assets
+INV-2026-003,Meta Dynamics,MetaSphere Overhaul,May 15 - May 30,3200.00,Pending Processing,Facebook Carousel Graphics & Email Header Retouching
+INV-2026-004,Pixel Perfection,Pixel Social Kit,May 15 - May 30,950.00,Draft,Instagram Story Production Art & Asset Redlines

@@ -1,0 +1,11 @@
+{
+  "api_name": "github-api",
+  "role": "main_load_bearing",
+  "purpose": "Provides Lantern Tides source-linked design asset records branch status release safety flags and build-related asset references.",
+  "endpoints": [
+    "repositories.json",
+    "branches.json",
+    "asset_manifest.json",
+    "release_flags.json"
+  ]
+}
